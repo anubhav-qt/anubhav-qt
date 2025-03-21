@@ -77,8 +77,8 @@
 </p>
 
 ---
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=anubhav-qt&icon=0&color=0" alt="Visit Count" />
-</p>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=anubhav-qt&style=for-the-badge&color=6366f1&label=VISITORS&logoColor=white" alt="Profile Visit Count" />
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
