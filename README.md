@@ -2,11 +2,8 @@
 
 > "One step at a time, the impossible will become possible."
 
-- 🔭 My current focus is at the exciting intersection of AI research and development, specifically exploring ways to give LLMs much longer "memory" and building smarter, more adaptive AI agents.
-- 🌱 Constantly learning and improving my skills in NLP, computer vision, and reinforcement learning, with a personal drive for high-performance computing.
-- 👯 Looking to connect and collaborate on challenging AI/ML projects that tackle complex problems, especially those requiring innovative architectures or serious optimization.
-- 💬 Happy to chat about anything from cutting-edge LLMs and RL to how to squeeze maximum performance out of AI models.
-- ⚡ Fun fact: I've actually built my own LLM and even wrote a research paper about it. Also, I find a different kind of challenge in solving coding puzzles, with over 250 on LeetCode.
+- I am currently working on an app using react native + firebase + fastAPI. It's a fun way to deal with the habit of doomscrolling on social media. If you want to contribute you can let me know!
+- I am also getting more experience of Deep Learning by doing projects, participating in hackathons and reading research papers. If you want to collaborate in any of it, let me know!
 
 ## 🌐 Socials
 
