@@ -4,12 +4,6 @@
 
 I am a **Final-Year Computer Science Student** specializing in **Artificial Intelligence & Machine Learning**. My focus lies in **Systems Programming**, **Deep Learning**, and building scalable **Full-Stack** applications. 
 
-Currently, I am:
-- 🔭 Preparing for **GATE 2026**.
-- 🧠 Deep diving into **CUDA** and **GPU Computing** for optimizing ML workloads.
-- 💼 Actively interviewing for **Machine Learning Engineer** and **Backend Engineer** roles.
-- 📉 Building **Slocho**, a gamified app designed to reduce doomscrolling.
-
 ## 🛠️ Technical Arsenal
 
 | Domain | Technologies |
