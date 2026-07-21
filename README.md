@@ -41,12 +41,3 @@ I like programming.
 ![Tailwind](https://img.shields.io/badge/tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 </div>
-
----
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anubhav-qt&show_icons=true&hide_border=true&theme=transparent&hide_title=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anubhav-qt&layout=compact&hide_border=true&theme=transparent&hide_title=true" />
-
-</div>
