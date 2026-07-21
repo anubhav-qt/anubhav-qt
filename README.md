@@ -1,12 +1,4 @@
 <div align="center">
-
-```
-                                                                                                  __
-                                                                                                <(o )___
-                                                                                                 ( ._> /
-                                                                                                  `---' 
-```
-
 ### Hi, I'm Anubhav 👋
 
 **Full-Stack Developer, specialized in AI/ML** · Computer Science Graduate · Rajasthan, India
