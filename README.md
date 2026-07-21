@@ -57,11 +57,3 @@ I like programming.
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anubhav-qt&layout=compact&hide_border=true&theme=transparent&hide_title=true" />
 
 </div>
-
-<div align="center">
-
-```
-> Currently: Making agents behave themselves
-```
-
-</div>
