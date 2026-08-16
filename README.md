@@ -36,6 +36,7 @@ Web         Next.js
 ### Secondary Projects
 
 * **paribelle ([backend](https://github.com/anubhav-qt/paribelle-backend)** + **[web](https://github.com/anubhav-qt/paribelle-web))**: Single-store commerce platform (NestJS API and Next.js storefront/admin, Dockerized with one-command seeded setup).
+* * **[fraud-vote-detection](https://github.com/anubhav-qt/fraud-vote-detection)**: Automated electoral roll fraud scanner using OpenCV grid segmentation, Google Cloud Vision OCR (98%+ accuracy), and deep learning face encodings.
 * **[synthetic-dataset-generator](https://github.com/anubhav-qt/synthetic-dataset-generator)**: DCGAN for synthetic chest X-rays (FID ~150 over 125 epochs).
 * **[amazon-ml-challenge](https://github.com/anubhav-qt/amazon-ml-challenge)**: Multimodal price prediction over 75k products using LightGBM/XGBoost ensembles.
 * **[secondary-screen](https://github.com/anubhav-qt/secondary-screen)**: Zero-dependency 40-line portrait monitor dashboard.
