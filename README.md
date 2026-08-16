@@ -105,6 +105,35 @@ change made on day one is still correctly reflected in the final cut.
 ### Past Projects
 
 <details>
+<summary><strong><a href="https://github.com/anubhav-qt/trotter">Trotter</a></strong>: Technical Analysis and Research of Stock Market with AI</summary>
+<br>
+
+A trading assistant that scores any stock across three time horizons (weekly, monthly,
+long-term) and backs it with live sentiment, technicals, and web-grounded valuation. The
+project's one hard rule is the same one that governs how I use models anywhere: anything
+that has to be *true* — a momentum figure, a P/E band, a volatility read — is computed in
+code from real market data, and Gemini is only ever handed the finished numbers to explain.
+
+- **The scoring engine never touches an LLM.** Momentum, valuation, volume, sentiment and
+  volatility are all deterministic functions over price history, quote data, and FinBERT
+  output. Two identical searches now return byte-identical scores; only the model's prose
+  and target-price estimate are allowed to vary run to run.
+- **News is aggregated across two independent RSS sources** (Yahoo Finance and Google News)
+  and deduplicated against title drift — Google News appends `" - Publisher"` to every
+  headline, which silently broke naive dedup before it was normalized out.
+- **FinBERT sentiment is batched**, not called per-headline, so a 30-day news window
+  classifies as one pipeline pass instead of N sequential model invocations.
+- **Every external dependency degrades instead of failing.** No `GOOGLE_API_KEY`? You still
+  get full quantitative scores, just without narrative commentary. No `TAVILY_API_KEY`? The
+  industry P/E step is skipped, nothing else breaks.
+- Next.js App Router with an SSE endpoint streaming pipeline progress live to the client,
+  a 10-minute per-symbol cache so repeat lookups are instant, and a Gemini vision "Deep
+  Dive" mode that reads the rendered candlestick chart and can nudge scores within a capped
+  delta — visual read, not a fresh number from scratch.
+
+</details>
+
+<details>
 <summary><strong><a href="https://paribelle.in/">paribelle</a></strong>: A real single-vendor storefront, built on a multi-vendor schema</summary>
 <br>
 
@@ -197,6 +226,5 @@ just a clock, a to-do list and a video player. This is the opposite: three stati
   removing it is deleting a single `.lnk` file.
 
 </details>
-
 ---
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
