@@ -1,6 +1,6 @@
 ## Anubhav Joshi
 
-Backend Engineer (AI / Infrastructure). CS graduate, Rajasthan, India.
+Backend Engineer (AI / Infrastructure). 2026 CS graduate, Rajasthan, India.
 
 The part of an AI system I find interesting is the part that isn't the model: persistent
 state, dependency graphs, and knowing which work to keep away from an LLM entirely.
