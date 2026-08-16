@@ -23,38 +23,22 @@ Web         Next.js
 
 ### Building now
 
-**[Spoin](https://github.com/anubhav-qt/slocho_bundle)** is a swipeable feed of
-AI-generated knowledge cards, quiz-gated so progression means something. One constraint
-shapes it: **the feed read path never touches an LLM.** A swipe is ~50ms and a generation
-call is seconds, so the system splits into a batched content factory, a Postgres and
-pgvector warehouse, and a serving layer that is fast because it does no inference. Cards
-are generated once and shared, so personalization is ranking, not per-user generation.
-FastAPI, SQLAlchemy async, Neon, Gemini Flash, Next.js. Two-person team; I own
-architecture, planning, and design, across 25 ADRs.
-*(The repo is still `slocho_bundle`: the rename to Spoin is committed to one atomic sweep
-rather than done piecemeal, so the tree stays answerable in the meantime.)*
+### Building
 
-**Agentic Cinema** is an AI-native virtual film studio. A film is a connected production
-graph, not a pile of documents, so editing one node marks its *actual* dependents stale
-(schedule, permits, props, shot design, budget) and the responsible agents re-derive only
-what changed, under convergence checks with a human gate when they don't agree. The hard
-problem isn't generation. It's invalidation.
-Gemini and Agent Builder over an event-sourced state layer, with deterministic QC.
-*In build; repo goes public at submission.*
+* **[Spoin](https://github.com/anubhav-qt/slocho_bundle)**: Swipeable AI knowledge feed.
+  * **Zero-LLM Read Path:** Kept LLM calls off the feed for ~50ms swipe latency; generation runs in batched background pipelines.
+  * **Stack & Scale:** FastAPI, SQLAlchemy Async, Neon (Postgres + pgvector), Gemini Flash, Next.js. Architected across 25 ADRs.
 
-### Also
+* **Agentic Cinema**: AI-native virtual film studio engine.
+  * **State Invalidation:** Treats production as a connected graph where updating one node invalidates only actual dependent sub-graphs (schedules, permits, shot designs).
+  * **Human-in-the-Loop:** Event-sourced state layer with bounded agent loops and deterministic QC gates.
 
-- **[synthetic-dataset-generator](https://github.com/anubhav-qt/synthetic-dataset-generator)**
-  DCGAN for synthetic chest X-rays, addressing medical data scarcity. Most of the work was
-  training stability: label smoothing, noise injection, asymmetric learning rates. FID ~150
-  over 125 epochs.
-- **[amazon-ml-challenge](https://github.com/anubhav-qt/amazon-ml-challenge)**
-  Multimodal price prediction over 75k products, 22.5% SMAPE. Image and text features into
-  an XGBoost/LightGBM/NN ensemble, with calibration for a train/test brand distribution
-  shift that made 60% of test brands unseen.
-- **[secondary-screen](https://github.com/anubhav-qt/secondary-screen)**
-  A portrait-monitor dashboard. Three static files, a 40-line server, no build step and no
-  dependencies. Running the launcher twice gives you one window, not two.
+### Secondary Projects
+
+* **paribelle ([backend](https://github.com/anubhav-qt/paribelle-backend)** + **[web](https://github.com/anubhav-qt/paribelle-web))**: Single-store commerce platform (NestJS API and Next.js storefront/admin, Dockerized with one-command seeded setup).
+* **[synthetic-dataset-generator](https://github.com/anubhav-qt/synthetic-dataset-generator)**: DCGAN for synthetic chest X-rays (FID ~150 over 125 epochs).
+* **[amazon-ml-challenge](https://github.com/anubhav-qt/amazon-ml-challenge)**: Multimodal price prediction over 75k products using LightGBM/XGBoost ensembles.
+* **[secondary-screen](https://github.com/anubhav-qt/secondary-screen)**: Zero-dependency 40-line portrait monitor dashboard.
 
 ---
 
