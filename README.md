@@ -15,7 +15,7 @@ Open to backend and AI infrastructure roles.
 Languages   Python · TypeScript
 AI/ML       PyTorch · LangChain · LangGraph · RAG · PineCone
 Backend     FastAPI · Postgres · pgvector · Redis · Docker
-Infra       GCP · Neon · Render · Vercel
+Infra       GCP · Neon · Render · Vercel · Supabase
 Web/Mobile  Next.js · React Native · Expo
 ```
 
