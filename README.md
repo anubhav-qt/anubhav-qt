@@ -43,23 +43,14 @@ Web         Next.js
 
 ---
 
-### How I work
+### How I Work
 
-- **Own the system, not a layer.** Schema and state design, API, workers, deploy, and the
-  developer experience that lets someone else clone it and ship the same day. I build the
-  clients too, but the thinking happens behind the API.
-- **Build pipelines around models rather than on top of them.** Training GANs, ensembling
-  over vision and text features, batching LLM generation behind a swappable interface, and
-  using vision models to verify rather than to author.
-- **Deterministic where determinism is cheaper.** Budgets, diffs, and format checks are code,
-  not model calls. Anything that can re-trigger itself gets an iteration cap and a human gate.
-- **State is the source of truth; models interpret it.** A fact you can assert against beats
-  a fact the model has to remember.
-- **Plan first, then enforce it.** Real decisions become documents, not comments. Docs rot
-  silently, a failing CI check does not.
-- **Cost is a design constraint, not a retrofit.** Free tier first, local where local is free,
-  reasoning effort matched to the stage that needs it.
-
+* **Own the system, not a layer.** Schema and state design, API, workers, deploy, and the developer experience that lets someone else clone it and ship the same day.
+* **Build pipelines around models rather than on top of them.** Training GANs, ensembling over vision and text features, batching LLM generation behind a swappable interface, and using vision models to verify rather than to author.
+* **Deterministic where determinism is cheaper.** Budgets, diffs, and format checks are code, not model calls. Anything that can re-trigger itself gets an iteration cap and a human gate.
+* **State is the source of truth; models interpret it.** A fact you can assert against beats a fact the model has to remember.
+* **Plan first, then enforce it.** Real decisions become documents, not comments. Docs rot silently; a failing CI check does not.
+* **Cost is a design constraint, not a retrofit.** Free tier first, local where local is free, reasoning effort matched to the stage that needs it.
 ---
 
 [LinkedIn](https://linkedin.com/in/anubhav-qt)
