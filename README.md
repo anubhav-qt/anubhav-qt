@@ -16,7 +16,7 @@ Languages   Python · TypeScript
 AI/ML       PyTorch · LangChain · LangGraph · RAG · PineCone
 Backend     FastAPI · Postgres · pgvector · Redis · Docker
 Infra       GCP · Neon · Render · Vercel
-Web & Mobile         Next.js · React Native · Expo
+Web/Mobile  Next.js · React Native · Expo
 ```
 
 ---
