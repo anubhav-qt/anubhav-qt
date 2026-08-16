@@ -20,9 +20,6 @@ Web         Next.js
 ```
 
 ---
-
-### Building now
-
 ### Building
 
 * **[Spoin](https://github.com/anubhav-qt/slocho_bundle)**: Swipeable AI knowledge feed.
@@ -40,9 +37,7 @@ Web         Next.js
 * **[synthetic-dataset-generator](https://github.com/anubhav-qt/synthetic-dataset-generator)**: DCGAN for synthetic chest X-rays (FID ~150 over 125 epochs).
 * **[amazon-ml-challenge](https://github.com/anubhav-qt/amazon-ml-challenge)**: Multimodal price prediction over 75k products using LightGBM/XGBoost ensembles.
 * **[secondary-screen](https://github.com/anubhav-qt/secondary-screen)**: Zero-dependency 40-line portrait monitor dashboard.
-
 ---
-
 ### How I Work
 
 * **Own the system, not a layer.** Schema and state design, API, workers, deploy, and the developer experience that lets someone else clone it and ship the same day.
@@ -52,5 +47,4 @@ Web         Next.js
 * **Plan first, then enforce it.** Real decisions become documents, not comments. Docs rot silently; a failing CI check does not.
 * **Cost is a design constraint, not a retrofit.** Free tier first, local where local is free, reasoning effort matched to the stage that needs it.
 ---
-
 [LinkedIn](https://linkedin.com/in/anubhav-qt)
