@@ -44,7 +44,7 @@ state, dependency graphs, and knowing which work to keep away from an LLM entire
 ### Building
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/slocho_bundle">Spoin</a></strong>: Scroll-and-learn knowledge feed, gamified with quizzes instead of just autoplay</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: Scroll-and-learn knowledge feed, gamified with quizzes instead of just autoplay</summary>
 <br>
 
 Spoin turns any topic into a feed of short AI-written knowledge cards you scroll through
