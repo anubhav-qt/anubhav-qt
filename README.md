@@ -38,7 +38,7 @@ state, dependency graphs, and knowing which work to keep away from an LLM entire
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&show_icons=true&theme=dark)](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&show_icons=true&theme=dark)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&theme=dark)](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&theme=dark)
 
 ---
 ### Building
