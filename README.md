@@ -227,4 +227,5 @@ just a clock, a to-do list and a video player. This is the opposite: three stati
 
 </details>
 ---
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
