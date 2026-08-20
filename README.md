@@ -77,7 +77,7 @@
 ### Building
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/continuum">Continuum</a></strong>: AI-Native Virtual Film Studio OS & Production Continuity Coordinator</summary>
+<summary><strong>Continuum</strong>: AI-Native Virtual Film Studio OS & Production Continuity Coordinator</summary>
 <br>
 
 Built for Google Cloud's *Agentic Cinema Blockbuster Hackathon*. Most "AI movie" demos are single prompt chains: script in, video out, zero context remembered. **Continuum** coordinates the entire multi-million-dollar production lifecycle by modeling the movie as a persistent, queryable **Cyclic Production State Graph** backed by **ClickHouse** event sourcing and **Google Cloud Agent Builder**.
