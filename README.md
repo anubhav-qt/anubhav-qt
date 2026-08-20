@@ -1,231 +1,177 @@
-## Anubhav Joshi
+<div align="left">
 
-Backend Engineer (AI / Infrastructure). 2026 CS graduate, Rajasthan, India.
+# Anubhav Joshi
 
-The part of an AI system I find interesting is the part that isn't the model: persistent
-state, dependency graphs, and knowing which work to keep away from an LLM entirely.
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│  Backend Engineer (AI & Distributed Systems) · 2026 CS Graduate        │
+│  Open to Backend, AI Infrastructure, and Systems Engineering roles.    │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
-> **Models are trusted for taste, never for constraints.**
-> Anything that must be *true* is enforced in code. Anything that merely needs to be
-> *good* is the model's job.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
 
-*Open to backend and AI infrastructure roles.*
-
-<hr>
+---
 
 ### Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+<table>
+  <tr>
+    <td width="22%"><strong>Languages</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/SQL_(PostgreSQL_/_ClickHouse)-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>AI & Frameworks</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/Google_Agent_Builder-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP Agent Builder" />
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="MCP" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Data & Persistence</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="ClickHouse" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
+      <img src="https://img.shields.io/badge/Neon_Serverless-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+      <img src="https://img.shields.io/badge/pgvector_/_Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Vector Stores" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Cloud & DevOps</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+      <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Web & Mobile UI</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/React_Flow-FF0072?style=flat-square&logo=react&logoColor=white" alt="React Flow" />
+      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
+      <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+    </td>
+  </tr>
+</table>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<br>
 
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&theme=dark)](https://github-stats-extended.vercel.app/api?username=anubhav-qt&rank_icon=github&hide_title=true&theme=dark)
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=anubhav-qt&theme=dark&hide_border=true" alt="GitHub Streak" height="160" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
+</div>
 
 ---
+
 ### Building
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: Scroll-and-learn knowledge feed, gamified with quizzes instead of just autoplay</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/continuum">Continuum</a></strong>: AI-Native Virtual Film Studio OS & Production Continuity Coordinator</summary>
 <br>
 
-Spoin turns any topic into a feed of short AI-written knowledge cards you scroll through
-like a social app, except progress is quiz-gated: you don't move to harder material until
-you've actually shown you understood the easier card. It's built to solve a real problem
-with existing "learn on your phone" apps, which are either static courses (no feed feel) or
-pure entertainment feeds (no learning gate).
+Built for Google Cloud's *Agentic Cinema Blockbuster Hackathon*. Most "AI movie" demos are single prompt chains: script in, video out, zero context remembered. **Continuum** coordinates the entire multi-million-dollar production lifecycle by modeling the movie as a persistent, queryable **Cyclic Production State Graph** backed by **ClickHouse** event sourcing and **Google Cloud Agent Builder**.
 
-- **The feed never calls an LLM.** A scroll needs to feel instant (~50ms), and a generation
-  call takes seconds, so the two are fully decoupled. A background pipeline writes cards
-  into Postgres in batches ahead of time; the feed only ever reads from that warehouse. This
-  is the single decision the rest of the architecture is built around.
-- **Cards are generated once and shared across every user**, not regenerated per person.
-  Personalization happens by re-ranking the same shared pool of cards, not by asking the
-  model to write a new one for you. Much cheaper, and it means quality control only has to
-  happen once per card, not once per view.
-- **Humor is fenced off from the part you're tested on.** A card can be playful in its title
-  or a small ASCII scene, but the actual explanation is kept in a separate, straight-prose
-  field. That's what keeps a joke from corrupting a fact you're being quizzed on.
-- **Stack:** FastAPI + SQLAlchemy (async) on Neon Postgres with pgvector, local embeddings,
-  Gemini Flash behind a swappable interface so the model can change without touching the
-  rest of the app, Next.js on the frontend.
-- Two-person team. I own the architecture, planning and system design; 25 ADRs written so
-  far, each one a real decision with the reasoning kept alongside it.
+- **The core mechanic is invalidation, not blind regeneration.** If a director moves Scene 4 from a sunny park to a night warehouse, the engine calculates the upstream and downstream blast radius across schedule, call sheets, props, lighting rigs, and budget deltas, re-running only the affected agents.
+- **Fixed-point convergence tames cyclic feedback loops.** To handle non-linear shooting and cyclic constraints without infinite recursion, the cascade runs in bounded 1-hop relaxation epochs with $O(1)$ differential payload hashing (`content_hash`) and an oscillation detector.
+- **Collaborative negotiation over unprompted hallucination.** When a cascade breaches budget or schedule limits, the Negotiation Agent mediates a live multi-stakeholder chat with the Producer and Director, synthesizing constraint-respecting compromises (e.g. Day-for-Night VFX vs. Interior Soundstage).
+- **Role-sliced projections with zero noise.** Crew members (Actors, Costume, Gaffers, Line Producers) only query materialized, craft-specific work orders. An actor sees their line cues and wound continuity; the costume lead sees wardrobe duplicates.
+- **QC evaluates output against ground truth, not vibes.** Technical checks (framerate, black frames, audio balance) are pure deterministic code. Narrative and prop continuity checks trace directly to specific graph node IDs with provable diffs.
+- **Stack:** Python 3.11+, Google Cloud Agent Builder (ADK), Gemini Enterprise, ClickHouse Cloud (`mcp-clickhouse`), FastAPI, React / Next.js with `@xyflow/react`.
 
 </details>
 
 <details>
-<summary><strong>Continuum</strong>: An AI production studio that runs a movie from screenplay to final cut as one continuous, stateful project</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: Gamified Knowledge Feed Decoupled from Live LLM Latency</summary>
 <br>
 
-Built for a Google Cloud agentic hackathon. Most "AI makes a movie" demos are a single
-prompt chain: script in, video out, nothing remembered in between. This is built the
-opposite way: the whole production (story, characters, locations, schedule, budget, shots)
-is stored as one connected graph of state that every stage reads from and writes to, so a
-change made on day one is still correctly reflected in the final cut.
+Spoin turns any topic into an algorithmic feed of bite-sized knowledge cards you scroll through like a social app, except progress is quiz-gated: you cannot unlock harder topics until proving mastery on earlier cards.
 
-- **The core mechanic is invalidation, not generation.** If a producer moves a scene from a
-  police station to an airport, that one edit has to correctly mark the schedule, permits,
-  props, shot design, budget and call sheet as stale, and only those, then re-run exactly
-  the agents responsible for each, and converge without looping forever. That cascade, not
-  the video output, is the actual hard problem this project solves.
-- **State and reasoning are kept separate on purpose.** Facts about the production live in a
-  deterministic, queryable store. A Continuity Agent reads that store and reasons over it,
-  instead of being asked to remember the whole movie in its own head, which is where these
-  systems normally start hallucinating.
-- **Loops are bounded on purpose.** A hard cap on re-run iterations, a convergence check
-  that stops the cascade once nothing new goes stale, and a human approval gate before any
-  change is allowed to rewrite the original brief.
-- **QC checks the movie against the plan, not against vibes.** Technical checks (resolution,
-  frame rate, sync) are plain code. Story and continuity checks trace back to a specific
-  node in the state graph, so every flagged issue is provable, not just a model's opinion.
-- Gemini + Agent Builder for orchestration, over an event-sourced state layer, with
-  deterministic checks doing the parts that don't need a model at all.
+- **The user read path never calls an LLM.** A scroll requires sub-50ms latency, whereas generation takes seconds. The read and write paths are strictly decoupled via CQRS: background workers batch-generate and validate cards ahead of time into a Neon Postgres warehouse; the mobile/web feed reads only from indexed pre-computed stores.
+- **Shared pool generation with ranking-based personalization.** Cards are generated once and shared globally rather than synthesized just-in-time per user. Personalization is computed as vector ranking and filtering over the shared corpus, slashing token costs by orders of magnitude while ensuring quality control happens once per card.
+- **Fenced content guarantees.** Humor and ASCII scenes are strictly isolated into dedicated schema fields away from the factual explanation text, preventing creative tone from corrupting quiz assertions.
+- **Stack:** FastAPI + SQLAlchemy (async), Neon Serverless Postgres with `pgvector`, local embedding models, Gemini Flash behind a swappable adapter interface, Next.js / React Native.
+- Co-founded as a two-person team; authored system planning and 25 Architectural Decision Records (ADRs).
 
 </details>
+
+---
 
 ### Past Projects
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/trotter">Trotter</a></strong>: Technical Analysis and Research of Stock Market with AI</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/trotter">Trotter</a></strong>: Deterministic Financial Valuation & Sentiment Engine</summary>
 <br>
 
-A trading assistant that scores any stock across three time horizons (weekly, monthly,
-long-term) and backs it with live sentiment, technicals, and web-grounded valuation. The
-project's one hard rule is the same one that governs how I use models anywhere: anything
-that has to be *true* — a momentum figure, a P/E band, a volatility read — is computed in
-code from real market data, and Gemini is only ever handed the finished numbers to explain.
+A trading research assistant scoring equities across weekly, monthly, and long-term horizons with live sentiment, technical momentum, and valuation grounding.
 
-- **The scoring engine never touches an LLM.** Momentum, valuation, volume, sentiment and
-  volatility are all deterministic functions over price history, quote data, and FinBERT
-  output. Two identical searches now return byte-identical scores; only the model's prose
-  and target-price estimate are allowed to vary run to run.
-- **News is aggregated across two independent RSS sources** (Yahoo Finance and Google News)
-  and deduplicated against title drift — Google News appends `" - Publisher"` to every
-  headline, which silently broke naive dedup before it was normalized out.
-- **FinBERT sentiment is batched**, not called per-headline, so a 30-day news window
-  classifies as one pipeline pass instead of N sequential model invocations.
-- **Every external dependency degrades instead of failing.** No `GOOGLE_API_KEY`? You still
-  get full quantitative scores, just without narrative commentary. No `TAVILY_API_KEY`? The
-  industry P/E step is skipped, nothing else breaks.
-- Next.js App Router with an SSE endpoint streaming pipeline progress live to the client,
-  a 10-minute per-symbol cache so repeat lookups are instant, and a Gemini vision "Deep
-  Dive" mode that reads the rendered candlestick chart and can nudge scores within a capped
-  delta — visual read, not a fresh number from scratch.
+- **Deterministic scoring wall:** Momentum, volatility, volume profiles, and FinBERT sentiment are pure mathematical code over historical market data. Two identical queries return byte-identical scores; Gemini is only handed computed numbers for narrative synthesis.
+- **Resilient aggregation with graceful degradation:** RSS feeds from Yahoo Finance and Google News are normalized against publisher title drift. If an external API key is missing, downstream steps gracefully skip while keeping core quantitative scorecards 100% operational.
+- **Stack:** Next.js App Router, Server-Sent Events (SSE) progress streaming, FinBERT batched inference, 10-min symbol caching, Gemini Vision for candlestick chart analysis.
 
 </details>
 
 <details>
-<summary><strong><a href="https://paribelle.in/">paribelle</a></strong>: A real single-vendor storefront, built on a multi-vendor schema</summary>
+<summary><strong><a href="https://paribelle.in/">Paribelle</a></strong>: Production Storefront Engineered on a Multi-Vendor Schema</summary>
 <br>
 
-A working commerce site selling designer kurtis and artificial jewellery. The backend
-still models every product as belonging to a vendor, on purpose: there's only one vendor
-seeded in right now, but the schema, the admin panel and the API are all built as if there
-could be more, so the marketplace version isn't a rewrite later, just a data change.
+A live e-commerce platform selling designer apparel and jewellery, architected so an initial single-tenant deployment seamlessly scales to a multi-vendor marketplace without database migrations.
 
-- NestJS API ([backend repo](https://github.com/anubhav-qt/paribelle-backend)) and Next.js
-  storefront + admin panel ([web repo](https://github.com/anubhav-qt/paribelle-web)).
-- One admin panel does double duty as both the store owner's dashboard and what would be
-  the platform-level admin in a multi-vendor version.
-- Fully Dockerized with a one-command seeded setup: schema, categories and sample products
-  are all created by a single init command, so a fresh clone has a working store in minutes.
+- **Schema-first multi-tenancy:** Products, orders, and settlements are isolated by vendor IDs at the schema level. Transitioning to a multi-merchant platform requires zero data re-architecture.
+- **Dual-purpose control plane:** A unified admin interface serves both single-store inventory operations and platform-level marketplace administration.
+- **Stack:** NestJS REST API, Next.js storefront & admin, Dockerized one-command seeded environment.
 
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/fraud-vote-detection">fraud-vote-detection</a></strong>: Scans scanned electoral rolls for duplicate or fraudulent voter entries</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/fraud-vote-detection">Fraud Vote Detection</a></strong>: Computer Vision Audit Pipeline for Scanned Electoral Rolls</summary>
 <br>
 
-Indian electoral rolls are distributed as scanned images of printed grids, which makes them
-easy to skim but hard to audit at scale. This pipeline turns a scanned roll into structured,
-checkable data and flags entries that look duplicated or fabricated.
+Automated audit pipeline converting scanned, printed voter grid images into structured, verifiable database records to detect fraudulent duplications.
 
-- **OpenCV grid segmentation** first isolates each individual voter cell from the scanned
-  page, since the source is a printed table image, not structured text.
-- **Google Cloud Vision OCR** then reads the name, age and address out of each cell, at
-  98%+ accuracy on the segmented crops.
-- **Deep learning face encodings** compare the photo in each entry against the rest of the
-  roll, to catch the same person registered more than once under different details, which
-  plain text matching alone would miss.
+- **OpenCV grid segmentation:** Segment and extract individual voter cells from noisy scanned document images.
+- **GCP Vision OCR & Face Embedding Matching:** Reads text metadata with 98%+ crop accuracy and compares deep facial embeddings across the entire voter roll to catch individuals registered under multiple identities.
 
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/synthetic-dataset-generator">synthetic-dataset-generator</a></strong>: A GAN that generates realistic synthetic chest X-rays</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/synthetic-dataset-generator">Synthetic Dataset Generator</a></strong>: DCGAN for Privacy-Preserving Medical Imaging</summary>
 <br>
 
-Medical imaging datasets are hard to get: they're small, and sharing real patient scans
-raises privacy problems. This trains a DCGAN to generate realistic-looking chest X-rays
-from the NIH dataset, so the synthetic output can be used to augment training data or
-shared without touching real patient images.
+Trained a Deep Convolutional GAN on the NIH chest X-ray dataset to synthesize high-fidelity 256×256 medical scans for data augmentation without patient privacy violations.
 
-- 7-layer generator (~1.8M parameters) turning random noise into 256×256 grayscale images,
-  against a 7-layer discriminator (~2.4M parameters) trained to tell real from fake.
-- The real engineering problem in a GAN is stopping it from collapsing to a handful of
-  repeated outputs. That's handled here with label smoothing, noise injected into the
-  discriminator's inputs, and a learning rate that deliberately favors the generator.
-- Trained 125 epochs on an RTX 3090 (about 8 to 10 hours), reaching an FID of roughly 150,
-  which is within the normal range for medical imaging GANs, and generating over 10,000
-  usable synthetic images.
+- **Mode-collapse prevention:** Implemented one-sided label smoothing, discriminator input noise injection, and asymmetric generator learning rates.
+- **Performance:** Trained 125 epochs on RTX 3090, achieving an FID score of ~150 and generating 10,000+ validated synthetic scans.
 
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/amazon-ml-challenge">amazon-ml-challenge</a></strong>: Predicts product prices from a mix of product images and text</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/amazon-ml-challenge">Amazon ML Challenge</a></strong>: Multimodal Product Pricing Predictor</summary>
 <br>
 
-Built for Amazon's 2025 ML Challenge: predict price for 75,000 real products using
-whatever combination of image, text and metadata is available, which is closer to a real
-pricing problem than a clean single-input dataset.
+Built for Amazon's ML Challenge to predict price across 75,000 products from raw images, text metadata, and noisy titles.
 
-- Extracted 40 features total: 18 from image quality signals, 22 from the product's text
-  and title, then fed both into a three-model ensemble (XGBoost, LightGBM, and a small
-  neural net tuned with Optuna), combined by weighted averaging.
-- The harder problem was that the test set didn't match training: 60% of test-set brands
-  had never been seen in training. Unreliable features were dropped and predictions were
-  calibrated with quantile mapping blended against the raw model output, specifically to
-  correct for that mismatch.
-- Reached 22.5% SMAPE on validation, with the full 75,000-row inference run completing in
-  under a minute.
+- **Cold-brand calibration:** Handled a 60% unseen-brand test set distribution shift by dropping unreliable high-variance features and applying quantile mapping blended with raw model predictions.
+- **Ensemble architecture:** 40 multimodal features fed into an Optuna-tuned ensemble of XGBoost, LightGBM, and neural networks, achieving 22.5% validation SMAPE.
 
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/secondary-screen">secondary-screen</a></strong>: A zero-dependency dashboard for a spare portrait monitor</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/secondary-screen">Secondary Screen</a></strong>: Zero-Dependency Dashboard for Secondary Displays</summary>
 <br>
 
-A lot of second-monitor dashboards are Electron apps with a build step for what's really
-just a clock, a to-do list and a video player. This is the opposite: three static files, a
-40-line Python server, and a Windows launcher, nothing else.
+A lightweight, zero-dependency auxiliary monitor dashboard replacing bloated 300MB Electron apps with clean web standards and an idempotent Windows launcher.
 
-- No framework and no build step. Plain HTML, CSS and JS that will run in any modern
-  browser; only the launcher is Windows-specific.
-- The launcher is idempotent on purpose: it checks what's already running before starting
-  anything, so running it twice (or it firing again after sleep/wake) gives you one window
-  in the right place, not a second stacked on top.
-- Installs as one Startup-folder shortcut, no admin rights and no registry changes, so
-  removing it is deleting a single `.lnk` file.
+- **Architecture:** 3 static vanilla web files, a 40-line Python server, and an idempotent launcher that ensures single-instance execution on boot/wake without registry modifications.
 
 </details>
----
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
