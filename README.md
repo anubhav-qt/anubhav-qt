@@ -4,7 +4,7 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Backend Engineer (AI & Distributed Systems) · 2026 CS Graduate        │
+│  Backend Engineer (AI & Infrastructure) · 2026 CS Graduate             │
 │  Open to Backend, AI Infrastructure, and Systems Engineering roles.    │
 └────────────────────────────────────────────────────────────────────────┘
 ```
