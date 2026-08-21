@@ -68,7 +68,6 @@
 <br>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=anubhav-qt&theme=dark&hide_border=true" alt="GitHub Streak" height="160" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
 </div>
 
