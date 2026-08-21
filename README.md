@@ -67,7 +67,7 @@
 
 <br>
 
-<div align="center">
+<div>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
 </div>
 
