@@ -86,7 +86,7 @@ Built for Google Cloud's *Agentic Cinema Blockbuster Hackathon*. Most "AI movie"
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: Gamified Knowledge Feed Decoupled from Live LLM Latency</summary>
+<summary><strong>Spoin</strong>: Gamified Knowledge Feed Decoupled from Live LLM Latency</summary>
 <br>
 
 Spoin turns any topic into an algorithmic feed of bite-sized knowledge cards you scroll through like a social app, except progress is quiz-gated: you cannot unlock harder topics until proving mastery on earlier cards.
