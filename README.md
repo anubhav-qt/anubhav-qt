@@ -1,6 +1,6 @@
 <div align="left">
 
-# Anubhav Joshi
+# Anubhav Joshi 
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -8,8 +8,9 @@
 │  Open to Backend, AI Infrastructure, and Systems Engineering roles.    │
 └────────────────────────────────────────────────────────────────────────┘
 ```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
+<div>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
+</div>
 
 ---
 
@@ -64,12 +65,6 @@
     </td>
   </tr>
 </table>
-
-<br>
-
-<div>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
-</div>
 
 ---
 
@@ -174,3 +169,6 @@ A lightweight, zero-dependency auxiliary monitor dashboard replacing bloated 300
 - **Architecture:** 3 static vanilla web files, a 40-line Python server, and an idempotent launcher that ensures single-instance execution on boot/wake without registry modifications.
 
 </details>
+<hr>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
