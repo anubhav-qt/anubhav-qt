@@ -5,7 +5,7 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  Backend Engineer · 2026 CS Graduate                                   │
-│  Open to Backend, AI Infrastructure, and Systems Engineering roles.    │
+│  Generative AI Engineer Trainee @Precision Design & Engineering        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 <div>
