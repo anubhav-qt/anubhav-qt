@@ -22,23 +22,21 @@
     <td>
       <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/SQL_(PostgreSQL_/_ClickHouse)-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>AI & Frameworks</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/Google_Agent_Builder-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP Agent Builder" />
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="MCP" />
-    </td>
-  </tr>
+  <td width="22%"><strong>AI & ML</strong></td>
+  <td>
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+    <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
+    <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="Computer Vision" />
+  </td>
+</tr>
   <tr>
     <td width="22%"><strong>Data & Persistence</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="ClickHouse" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
       <img src="https://img.shields.io/badge/Neon_Serverless-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
@@ -59,7 +57,6 @@
     <td width="22%"><strong>Web & Mobile UI</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/React_Flow-FF0072?style=flat-square&logo=react&logoColor=white" alt="React Flow" />
       <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
       <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
     </td>
@@ -71,31 +68,34 @@
 ### Building
 
 <details>
-<summary><strong>Continuum</strong>: AI-Native Virtual Film Studio OS & Production Continuity Coordinator</summary>
+<summary><strong>Spoin</strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
 <br>
 
-Built for Google Cloud's *Agentic Cinema Blockbuster Hackathon*. Most "AI movie" demos are single prompt chains: script in, video out, zero context remembered. **Continuum** coordinates the entire multi-million-dollar production lifecycle by modeling the movie as a persistent, queryable **Cyclic Production State Graph** backed by **ClickHouse** event sourcing and **Google Cloud Agent Builder**.
+Spoin turns any topic into a personalized feed of bite-sized knowledge cards designed to take a learner from curiosity to mastery.
 
-- **The core mechanic is invalidation, not blind regeneration.** If a director moves Scene 4 from a sunny park to a night warehouse, the engine calculates the upstream and downstream blast radius across schedule, call sheets, props, lighting rigs, and budget deltas, re-running only the affected agents.
-- **Fixed-point convergence tames cyclic feedback loops.** To handle non-linear shooting and cyclic constraints without infinite recursion, the cascade runs in bounded 1-hop relaxation epochs with $O(1)$ differential payload hashing (`content_hash`) and an oscillation detector.
-- **Collaborative negotiation over unprompted hallucination.** When a cascade breaches budget or schedule limits, the Negotiation Agent mediates a live multi-stakeholder chat with the Producer and Director, synthesizing constraint-respecting compromises (e.g. Day-for-Night VFX vs. Interior Soundstage).
-- **Role-sliced projections with zero noise.** Crew members (Actors, Costume, Gaffers, Line Producers) only query materialized, craft-specific work orders. An actor sees their line cues and wound continuity; the costume lead sees wardrobe duplicates.
-- **QC evaluates output against ground truth, not vibes.** Technical checks (framerate, black frames, audio balance) are pure deterministic code. Narrative and prop continuity checks trace directly to specific graph node IDs with provable diffs.
-- **Stack:** Python 3.11+, Google Cloud Agent Builder (ADK), Gemini Enterprise, ClickHouse Cloud (`mcp-clickhouse`), FastAPI, React / Next.js with `@xyflow/react`.
+- **Knowledge is separated from generation.** Spoin maintains a curated source-of-truth knowledge universe, `the_spoin_universe`, rather than relying on an LLM's latent knowledge as the content authority. Topics and curricula are constructed from this shared semantic substrate, allowing knowledge to be reused across domains instead of rebuilding isolated topic corpora.
+- **FROG provides grounded retrieval.** The Spoin-specific RAG layer retrieves relevant evidence from `the_spoin_universe` before generation. Generators synthesize from retrieved evidence, while separate thinker/verifier models evaluate the result. The model proposes; deterministic validation enforces structural contracts.
+- **Learning architecture is explicit.** Curricula are built around prerequisite relationships and a progression from hook → concept → mental model → mechanism → example → discrimination → misconception → application → integration → retrieval. Difficulty increases through reasoning, diagnosis, transfer, and multi-system trade-offs rather than simply adding jargon.
+- **Pre-generated, asynchronous serving.** Generation and verification happen off the read path, allowing the learner's feed to serve completed cards without waiting on live LLM inference. Model providers are isolated behind replaceable generation/verification interfaces.
+- **Multimodal grounding is deliberate.** Curated visual anchors, generated diagrams/ASCII, and deterministic layout validation are used according to their pedagogical role rather than as decoration. Visuals are grounded in the same knowledge architecture as the cards.
+- **Stack:** FastAPI + SQLAlchemy (async), PostgreSQL, vector retrieval, FROG, pluggable LLM generators/verifiers, and a Next.js / React-based client.
+- Co-founded as a two-person team; authored the system architecture, knowledge/corpus methodology, curriculum architecture, and architectural decision records.
 
 </details>
 
 <details>
-<summary><strong>Spoin</strong>: Gamified Knowledge Feed Decoupled from Live LLM Latency</summary>
+<summary><strong><a href="https://www.paribelle.in">PariBelle</a></strong>: Production Commerce Ecosystem for Fashion Retail & Marketplace Operations</summary>
 <br>
 
-Spoin turns any topic into an algorithmic feed of bite-sized knowledge cards you scroll through like a social app, except progress is quiz-gated: you cannot unlock harder topics until proving mastery on earlier cards.
+PariBelle is a live e-commerce ecosystem spanning the customer storefront, commerce backend, unified administration, and warehouse/order management, architected to support both a single-brand deployment and future multi-vendor marketplace operations.
 
-- **The user read path never calls an LLM.** A scroll requires sub-50ms latency, whereas generation takes seconds. The read and write paths are strictly decoupled via CQRS: background workers batch-generate and validate cards ahead of time into a Neon Postgres warehouse; the mobile/web feed reads only from indexed pre-computed stores.
-- **Shared pool generation with ranking-based personalization.** Cards are generated once and shared globally rather than synthesized just-in-time per user. Personalization is computed as vector ranking and filtering over the shared corpus, slashing token costs by orders of magnitude while ensuring quality control happens once per card.
-- **Fenced content guarantees.** Humor and ASCII scenes are strictly isolated into dedicated schema fields away from the factual explanation text, preventing creative tone from corrupting quiz assertions.
-- **Stack:** FastAPI + SQLAlchemy (async), Neon Serverless Postgres with `pgvector`, local embedding models, Gemini Flash behind a swappable adapter interface, Next.js / React Native.
-- Co-founded as a two-person team; authored system planning and 25 Architectural Decision Records (ADRs).
+- **End-to-end commerce platform.** The customer-facing system covers catalogue discovery, product variants, cart and checkout, payments, orders, returns/exchanges, wallet, invoices, GST/HSN, KYC, reviews, notifications, and marketplace-ready vendor management.
+- **Unified control plane.** A single admin application manages products, orders, categories, homepage content, custom pages, policies, invoices, KYC, analytics, filters, store settings, and other operational workflows.
+- **Dedicated OMS.** [POM](https://github.com/anubhav-qt/pom) handles warehouse and marketplace operations including order ingestion, SKU mapping, inventory ledgers, reservations, pick/pack/dispatch workflows, shipping labels, returns/RTOs, and marketplace integrations.
+- **Schema-first multi-tenancy.** Products, orders, inventory, and settlements are isolated by vendor identifiers at the data-model level, allowing the platform to evolve from a single-brand deployment into a multi-vendor marketplace without re-architecting the core schema.
+- **Production-oriented engineering.** Payment idempotency, webhook verification, transactional inventory updates, authorization boundaries, rate limiting, realtime notifications, automated checks, migrations, and documented production QA are built into the system rather than treated as post-launch additions.
+- **Stack:** [NestJS REST API](https://github.com/anubhav-qt/paribelle-backend), [Next.js / React storefront & admin](https://github.com/anubhav-qt/paribelle-web), [POM OMS](https://github.com/anubhav-qt/pom), PostgreSQL, Dockerized development environment, Razorpay, Cloudinary, Socket.IO, and marketplace integrations.
+- Built as a production system for PariBelle; responsible for the system architecture, implementation direction, testing, maintenance, and evolution across the storefront, backend, administration, and OMS.
 
 </details>
 
@@ -112,18 +112,6 @@ A trading research assistant scoring equities across weekly, monthly, and long-t
 - **Deterministic scoring wall:** Momentum, volatility, volume profiles, and FinBERT sentiment are pure mathematical code over historical market data. Two identical queries return byte-identical scores; Gemini is only handed computed numbers for narrative synthesis.
 - **Resilient aggregation with graceful degradation:** RSS feeds from Yahoo Finance and Google News are normalized against publisher title drift. If an external API key is missing, downstream steps gracefully skip while keeping core quantitative scorecards 100% operational.
 - **Stack:** Next.js App Router, Server-Sent Events (SSE) progress streaming, FinBERT batched inference, 10-min symbol caching, Gemini Vision for candlestick chart analysis.
-
-</details>
-
-<details>
-<summary><strong><a href="https://paribelle.in/">Paribelle</a></strong>: Production Storefront Engineered on a Multi-Vendor Schema</summary>
-<br>
-
-A live e-commerce platform selling designer apparel and jewellery, architected so an initial single-tenant deployment seamlessly scales to a multi-vendor marketplace without database migrations.
-
-- **Schema-first multi-tenancy:** Products, orders, and settlements are isolated by vendor IDs at the schema level. Transitioning to a multi-merchant platform requires zero data re-architecture.
-- **Dual-purpose control plane:** A unified admin interface serves both single-store inventory operations and platform-level marketplace administration.
-- **Stack:** NestJS REST API, Next.js storefront & admin, Dockerized one-command seeded environment.
 
 </details>
 
