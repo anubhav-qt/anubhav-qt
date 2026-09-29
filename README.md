@@ -68,7 +68,7 @@
 ### Building
 
 <details>
-<summary><strong><a href="[https://www.paribelle.in](https://github.com/anubhav-qt/spoin_bundle)">Spoin</a></strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
 <br>
 
 Spoin turns any topic into a personalized feed of bite-sized knowledge cards designed to take a learner from curiosity to mastery.
@@ -79,7 +79,6 @@ Spoin turns any topic into a personalized feed of bite-sized knowledge cards des
 - **Pre-generated, asynchronous serving.** Generation and verification happen off the read path, allowing the learner's feed to serve completed cards without waiting on live LLM inference. Model providers are isolated behind replaceable generation/verification interfaces.
 - **Multimodal grounding is deliberate.** Curated visual anchors, generated diagrams/ASCII, and deterministic layout validation are used according to their pedagogical role rather than as decoration. Visuals are grounded in the same knowledge architecture as the cards.
 - **Stack:** FastAPI + SQLAlchemy (async), PostgreSQL, vector retrieval, FROG, pluggable LLM generators/verifiers, and a Next.js / React-based client.
-- Co-founded as a two-person team; authored the system architecture, knowledge/corpus methodology, curriculum architecture, and architectural decision records.
 
 </details>
 
