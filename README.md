@@ -1,161 +1,139 @@
 <div align="left">
 
-# Anubhav Joshi 
+# Anubhav Joshi
 
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│  Backend Engineer · 2026 CS Graduate                                   │
-│  Generative AI Engineer Trainee @Precision Design & Engineering        │
-└────────────────────────────────────────────────────────────────────────┘
 ```
-<div>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anubhav-qt&theme=github_dark" alt="GitHub Profile Details" height="160" />
-</div>
+┌──────────────────────────────────────────────────────────────────────┐
+│  Software Engineer · Builder                                         │
+│  I like turning ambitious ideas into things that actually run.       │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+I build and maintain products end to end — from the data model and backend to the interface, infrastructure, and the weird little details that make the product feel finished.
+
+Most of my current work lives in four projects:
 
 ---
 
-### Tech Stack
+## Currently Building
+
+<details open>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong> · Knowledge feed built around mastery</summary>
+<br>
+
+Spoin turns a topic into a structured learning journey: a fast swipeable feed of bite-sized knowledge, quizzes, deeper dives, and a curriculum designed to move from curiosity toward mastery.
+
+- **The knowledge is curated first.** Spoin maintains a source-of-truth knowledge universe instead of treating an LLM's latent knowledge as the authority.
+- **Generation is off the read path.** Cards are generated, verified, and stored asynchronously; the feed only serves completed content, keeping reads fast instead of waiting on inference.
+- **Cards are shared, not regenerated per user.** Personalization happens through retrieval and ranking over the shared corpus, which keeps generation cost and quality control sane.
+- **Learning is structured.** Curricula encode prerequisites and progression rather than throwing disconnected facts at the reader.
+- **The system is deliberately multimodal.** Real visual anchors, diagrams, ASCII scenes, quizzes, and prose all have defined roles in the curriculum.
+- Currently: **19 live topics, 12K+ cards, 7K+ quiz questions**, with the content-generation and serving systems being continuously expanded.
+
+**Stack:** FastAPI · PostgreSQL · pgvector · SQLAlchemy · LangGraph · Gemini · Next.js · TypeScript
+
+</details>
+
+<details open>
+<summary><strong><a href="https://github.com/anubhav-qt/breader">Breader</a></strong> · A minimal reader for the web</summary>
+<br>
+
+Breader is a reading environment built around one idea: the interface should disappear and let the book become the interface.
+
+- **Books provide the colour.** Each title starts as an outline and fills in as you read, turning the library itself into a visual progress map.
+- **Reads local-first.** EPUB, PDF, TXT, Markdown, and pasted text are supported without requiring an account.
+- **Your position is exact.** Reading progress is saved to the character rather than the page, so it survives changes in window size and typography.
+- **Built-in listening.** Browser-native voices, sentence highlighting, pronunciation overrides, immersive mode, and support for custom Piper/Kokoro voices.
+- **Simple by design.** No ads, no subscriptions, no noisy dashboard — just a place to read.
+- Open source under the **MIT License** and live at **[breader.site](https://breader.site)**.
+
+**Stack:** React · TypeScript · Vite · browser storage · local TTS · open web APIs
+
+</details>
+
+<details open>
+<summary><strong><a href="https://github.com/anubhav-qt/paribelle-ecosystem">PariBelle Ecosystem</a></strong> · Production commerce infrastructure</summary>
+<br>
+
+PariBelle is a live commerce ecosystem for fashion retail and marketplace operations, spanning the storefront, backend, administration, and warehouse/order management.
+
+- **Full-stack commerce.** Catalogue, variants, cart, checkout, payments, orders, returns, wallet, invoices, GST/HSN, KYC, reviews, notifications, and administration.
+- **Dedicated OMS.** <a href="https://github.com/anubhav-qt/pom">POM</a> handles inventory, reservations, picking, packing, dispatch, returns/RTOs, and marketplace operations.
+- **Built to grow into multi-vendor.** Vendor-aware data modelling keeps the core system ready for marketplace expansion without rebuilding the schema.
+- **Production engineering matters.** Idempotent payments, webhook verification, transactional inventory updates, authorization boundaries, rate limiting, realtime events, migrations, and automated QA are part of the system.
+- **Actually in use.** PariBelle has been running in production since July 2026, with ongoing ownership of its codebase, infrastructure, fixes, and new features.
+
+**Stack:** Next.js · React · NestJS · PostgreSQL · TypeORM · Docker · Razorpay · Cloudinary · Socket.IO
+
+</details>
+
+<details open>
+<summary><strong><a href="https://github.com/anubhav-qt/my_website">my_website</a></strong> · My little corner of the internet</summary>
+<br>
+
+My personal site and dev log — part portfolio, part notebook, part place to document whatever I'm currently building.
+
+- Projects are treated as actual things rather than résumé bullet points.
+- Includes a scratchpad/dev-log, project writeups, contact page, and live project metrics.
+- Designed and rebuilt repeatedly as my taste and ideas change.
+- Live at **[anubhav-qt.dev](https://www.anubhav-qt.dev)**.
+
+**Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Supabase · Vercel
+
+</details>
+
+---
+
+## Toolbox
 
 <table>
   <tr>
     <td width="22%"><strong>Languages</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
     </td>
   </tr>
   <tr>
-  <td width="22%"><strong>AI & ML</strong></td>
-  <td>
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-    <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-    <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
-    <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="Computer Vision" />
-  </td>
-</tr>
-  <tr>
-    <td width="22%"><strong>Data & Persistence</strong></td>
+    <td><strong>Backend & Data</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres" />
-      <img src="https://img.shields.io/badge/Neon_Serverless-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-      <img src="https://img.shields.io/badge/pgvector_/_Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Vector Stores" />
+      <img src="https://img.shields.io/badge/pgvector-000000?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>Cloud & DevOps</strong></td>
+    <td><strong>AI & Systems</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square" alt="Computer Vision" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>Web & Mobile UI</strong></td>
+    <td><strong>Frontend</strong></td>
     <td>
-      <img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
-      <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
     </td>
   </tr>
 </table>
 
 ---
 
-### Building
+<div align="center">
 
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
-<br>
-
-Spoin turns any topic into a personalized feed of bite-sized knowledge cards designed to take a learner from curiosity to mastery.
-
-- **Knowledge is separated from generation.** Spoin maintains a curated source-of-truth knowledge universe, `the_spoin_universe`, rather than relying on an LLM's latent knowledge as the content authority. Topics and curricula are constructed from this shared semantic substrate, allowing knowledge to be reused across domains instead of rebuilding isolated topic corpora.
-- **FROG provides grounded retrieval.** The Spoin-specific RAG layer retrieves relevant evidence from `the_spoin_universe` before generation. Generators synthesize from retrieved evidence, while separate thinker/verifier models evaluate the result. The model proposes; deterministic validation enforces structural contracts.
-- **Learning architecture is explicit.** Curricula are built around prerequisite relationships and a progression from hook → concept → mental model → mechanism → example → discrimination → misconception → application → integration → retrieval. Difficulty increases through reasoning, diagnosis, transfer, and multi-system trade-offs rather than simply adding jargon.
-- **Pre-generated, asynchronous serving.** Generation and verification happen off the read path, allowing the learner's feed to serve completed cards without waiting on live LLM inference. Model providers are isolated behind replaceable generation/verification interfaces.
-- **Multimodal grounding is deliberate.** Curated visual anchors, generated diagrams/ASCII, and deterministic layout validation are used according to their pedagogical role rather than as decoration. Visuals are grounded in the same knowledge architecture as the cards.
-- **Stack:** FastAPI + SQLAlchemy (async), PostgreSQL, vector retrieval, FROG, pluggable LLM generators/verifiers, and a Next.js / React-based client.
-
-</details>
-
-<details>
-<summary><strong><a href="https://www.paribelle.in">PariBelle</a></strong>: Production Commerce Ecosystem for Fashion Retail & Marketplace Operations</summary>
-<br>
-
-PariBelle is a live e-commerce ecosystem spanning the customer storefront, commerce backend, unified administration, and warehouse/order management, architected to support both a single-brand deployment and future multi-vendor marketplace operations.
-
-- **End-to-end commerce platform.** The customer-facing system covers catalogue discovery, product variants, cart and checkout, payments, orders, returns/exchanges, wallet, invoices, GST/HSN, KYC, reviews, notifications, and marketplace-ready vendor management.
-- **Unified control plane.** A single admin application manages products, orders, categories, homepage content, custom pages, policies, invoices, KYC, analytics, filters, store settings, and other operational workflows.
-- **Dedicated OMS.** [POM](https://github.com/anubhav-qt/pom) handles warehouse and marketplace operations including order ingestion, SKU mapping, inventory ledgers, reservations, pick/pack/dispatch workflows, shipping labels, returns/RTOs, and marketplace integrations.
-- **Schema-first multi-tenancy.** Products, orders, inventory, and settlements are isolated by vendor identifiers at the data-model level, allowing the platform to evolve from a single-brand deployment into a multi-vendor marketplace without re-architecting the core schema.
-- **Production-oriented engineering.** Payment idempotency, webhook verification, transactional inventory updates, authorization boundaries, rate limiting, realtime notifications, automated checks, migrations, and documented production QA are built into the system rather than treated as post-launch additions.
-- **Stack:** [NestJS REST API](https://github.com/anubhav-qt/paribelle-backend), [Next.js / React storefront & admin](https://github.com/anubhav-qt/paribelle-web), [POM OMS](https://github.com/anubhav-qt/pom), PostgreSQL, Dockerized development environment, Razorpay, Cloudinary, Socket.IO, and marketplace integrations.
-- Built as a production system for PariBelle; responsible for the system architecture, implementation direction, testing, maintenance, and evolution across the storefront, backend, administration, and OMS.
-
-</details>
-
----
-
-### Past Projects
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/trotter">Trotter</a></strong>: Deterministic Financial Valuation & Sentiment Engine</summary>
-<br>
-
-A trading research assistant scoring equities across weekly, monthly, and long-term horizons with live sentiment, technical momentum, and valuation grounding.
-
-- **Deterministic scoring wall:** Momentum, volatility, volume profiles, and FinBERT sentiment are pure mathematical code over historical market data. Two identical queries return byte-identical scores; Gemini is only handed computed numbers for narrative synthesis.
-- **Resilient aggregation with graceful degradation:** RSS feeds from Yahoo Finance and Google News are normalized against publisher title drift. If an external API key is missing, downstream steps gracefully skip while keeping core quantitative scorecards 100% operational.
-- **Stack:** Next.js App Router, Server-Sent Events (SSE) progress streaming, FinBERT batched inference, 10-min symbol caching, Gemini Vision for candlestick chart analysis.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/fraud-vote-detection">Fraud Vote Detection</a></strong>: Computer Vision Audit Pipeline for Scanned Electoral Rolls</summary>
-<br>
-
-Automated audit pipeline converting scanned, printed voter grid images into structured, verifiable database records to detect fraudulent duplications.
-
-- **OpenCV grid segmentation:** Segment and extract individual voter cells from noisy scanned document images.
-- **GCP Vision OCR & Face Embedding Matching:** Reads text metadata with 98%+ crop accuracy and compares deep facial embeddings across the entire voter roll to catch individuals registered under multiple identities.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/synthetic-dataset-generator">Synthetic Dataset Generator</a></strong>: DCGAN for Privacy-Preserving Medical Imaging</summary>
-<br>
-
-Trained a Deep Convolutional GAN on the NIH chest X-ray dataset to synthesize high-fidelity 256×256 medical scans for data augmentation without patient privacy violations.
-
-- **Mode-collapse prevention:** Implemented one-sided label smoothing, discriminator input noise injection, and asymmetric generator learning rates.
-- **Performance:** Trained 125 epochs on RTX 3090, achieving an FID score of ~150 and generating 10,000+ validated synthetic scans.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/amazon-ml-challenge">Amazon ML Challenge</a></strong>: Multimodal Product Pricing Predictor</summary>
-<br>
-
-Built for Amazon's ML Challenge to predict price across 75,000 products from raw images, text metadata, and noisy titles.
-
-- **Cold-brand calibration:** Handled a 60% unseen-brand test set distribution shift by dropping unreliable high-variance features and applying quantile mapping blended with raw model predictions.
-- **Ensemble architecture:** 40 multimodal features fed into an Optuna-tuned ensemble of XGBoost, LightGBM, and neural networks, achieving 22.5% validation SMAPE.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/secondary-screen">Secondary Screen</a></strong>: Zero-Dependency Dashboard for Secondary Displays</summary>
-<br>
-
-A lightweight, zero-dependency auxiliary monitor dashboard replacing bloated 300MB Electron apps with clean web standards and an idempotent Windows launcher.
-
-- **Architecture:** 3 static vanilla web files, a 40-line Python server, and an idempotent launcher that ensures single-instance execution on boot/wake without registry modifications.
-
-</details>
-<hr>
-
+[![Website](https://img.shields.io/badge/anubhav--qt.dev-111111?style=flat-square&logo=vercel&logoColor=white)](https://www.anubhav-qt.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/anubhav-qt)
+
+<sub>Build things. Keep them alive. Make them weird.</sub>
+
+</div>
