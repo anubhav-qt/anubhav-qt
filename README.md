@@ -68,7 +68,7 @@
 ### Building
 
 <details>
-<summary><strong>Spoin</strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
+<summary><strong><a href="[https://www.paribelle.in](https://github.com/anubhav-qt/spoin_bundle)">Spoin</a></strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
 <br>
 
 Spoin turns any topic into a personalized feed of bite-sized knowledge cards designed to take a learner from curiosity to mastery.
