@@ -68,94 +68,73 @@
 ### Building
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: A Grounded, Mastery-Driven Knowledge Feed</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: For the Curious</summary>
 <br>
 
-Spoin turns any topic into a personalized feed of bite-sized knowledge cards designed to take a learner from curiosity to mastery.
+Spoin started as a simple idea: make a learning app that feels like scrolling a social feed. Pick some topics, get one thing to learn, then another, with quizzes and progression so it does not turn into an endless pile of random facts.
 
-- **Knowledge is separated from generation.** Spoin maintains a curated source-of-truth knowledge universe, `the_spoin_universe`, rather than relying on an LLM's latent knowledge as the content authority. Topics and curricula are constructed from this shared semantic substrate, allowing knowledge to be reused across domains instead of rebuilding isolated topic corpora.
-- **FROG provides grounded retrieval.** The Spoin-specific RAG layer retrieves relevant evidence from `the_spoin_universe` before generation. Generators synthesize from retrieved evidence, while separate thinker/verifier models evaluate the result. The model proposes; deterministic validation enforces structural contracts.
-- **Learning architecture is explicit.** Curricula are built around prerequisite relationships and a progression from hook → concept → mental model → mechanism → example → discrimination → misconception → application → integration → retrieval. Difficulty increases through reasoning, diagnosis, transfer, and multi-system trade-offs rather than simply adding jargon.
-- **Pre-generated, asynchronous serving.** Generation and verification happen off the read path, allowing the learner's feed to serve completed cards without waiting on live LLM inference. Model providers are isolated behind replaceable generation/verification interfaces.
-- **Multimodal grounding is deliberate.** Curated visual anchors, generated diagrams/ASCII, and deterministic layout validation are used according to their pedagogical role rather than as decoration. Visuals are grounded in the same knowledge architecture as the cards.
-- **Stack:** FastAPI + SQLAlchemy (async), PostgreSQL, vector retrieval, FROG, pluggable LLM generators/verifiers, and a Next.js / React-based client.
+The first version was basically Gemini generating cards from "trust me bro". That worked for a while. Then the corpus got large enough that I had to rebuild the knowledge side properly.
+
+Now `the_spoin_universe` is the source of truth. FROG retrieves from it before generation, verification gets its own evidence, cards are generated ahead of time, and the feed never has to wait for an LLM call.
+
+The other half of Spoin is the learning system around the cards. Curricula describe what should be taught and in what order. Deterministic checks validate the generated structure. Users can report broken cards, bad diagrams, broken art and other issues, which I review in the admin panel and fix manually.
+
+The models are workers now. They are not Spoin.
+
+**Stack:** FastAPI · PostgreSQL · pgvector · FROG · LangGraph · Gemini · Next.js · React
 
 </details>
 
 <details>
-<summary><strong><a href="https://www.paribelle.in">PariBelle</a></strong>: Production Commerce Ecosystem for Fashion Retail & Marketplace Operations</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/breader">Breader</a></strong>: A Minimal Reader for the Web</summary>
 <br>
 
-PariBelle is a live e-commerce ecosystem spanning the customer storefront, commerce backend, unified administration, and warehouse/order management, architected to support both a single-brand deployment and future multi-vendor marketplace operations.
+I wanted a place where I could open a book and just read without the site trying to turn reading into a productivity dashboard.
 
-- **End-to-end commerce platform.** The customer-facing system covers catalogue discovery, product variants, cart and checkout, payments, orders, returns/exchanges, wallet, invoices, GST/HSN, KYC, reviews, notifications, and marketplace-ready vendor management.
-- **Unified control plane.** A single admin application manages products, orders, categories, homepage content, custom pages, policies, invoices, KYC, analytics, filters, store settings, and other operational workflows.
-- **Dedicated OMS.** [POM](https://github.com/anubhav-qt/pom) handles warehouse and marketplace operations including order ingestion, SKU mapping, inventory ledgers, reservations, pick/pack/dispatch workflows, shipping labels, returns/RTOs, and marketplace integrations.
-- **Schema-first multi-tenancy.** Products, orders, inventory, and settlements are isolated by vendor identifiers at the data-model level, allowing the platform to evolve from a single-brand deployment into a multi-vendor marketplace without re-architecting the core schema.
-- **Production-oriented engineering.** Payment idempotency, webhook verification, transactional inventory updates, authorization boundaries, rate limiting, realtime notifications, automated checks, migrations, and documented production QA are built into the system rather than treated as post-launch additions.
-- **Stack:** [NestJS REST API](https://github.com/anubhav-qt/paribelle-backend), [Next.js / React storefront & admin](https://github.com/anubhav-qt/paribelle-web), [POM OMS](https://github.com/anubhav-qt/pom), PostgreSQL, Dockerized development environment, Razorpay, Cloudinary, Socket.IO, and marketplace integrations.
-- Built as a production system for PariBelle; responsible for the system architecture, implementation direction, testing, maintenance, and evolution across the storefront, backend, administration, and OMS.
+So Breader is deliberately quiet. Books start as outlines in the library and fill with their own colour as you read, until a finished book is completely filled. Your position is saved to the character, the reader has both paged and scroll modes, and the controls stay out of the way.
+
+Then I kept adding the things I actually wanted while reading. Browser-side voices. Sentence highlighting. Pronunciation overrides. Immersive mode. Custom Piper and Kokoro voices.
+
+EPUB, PDF, TXT, Markdown and pasted text all work. There is no account requirement, no ads and no subscription.
+
+**Stack:** React · TypeScript · Vite · browser storage · local TTS
+
+</details>
+
+<details>
+<summary><strong><a href="https://www.paribelle.in">PariBelle Ecosystem</a></strong>: Fashion Commerce from Storefront to OMS</summary>
+<br>
+
+PariBelle is the commerce system I have been building across the storefront, backend, admin and OMS.
+
+The customer side handles the shopping flow. The backend handles the parts that become important once real orders start moving: variants, inventory, payments, GST/HSN, invoices, KYC, returns, wallet and notifications.
+
+The system is split into separate pieces. The Next.js storefront and admin talk to a NestJS API, and POM handles the warehouse side with inventory ledgers, reservations, picking, packing, dispatch, returns and marketplace operations.
+
+The data model is vendor-aware from the start because I do not want multi-vendor to become a future rewrite.
+
+It has been running in production since July 2026. I have kept working on the same system after deployment, adding features, fixing things as they appear and changing parts of the architecture when the existing shape stops making sense.
+
+**Stack:** Next.js · React · NestJS · PostgreSQL · TypeORM · Docker · Razorpay · Cloudinary · Socket.IO
+
+</details>
+
+<details>
+<summary><strong><a href="https://github.com/anubhav-qt/my_website">my_website</a></strong>: My Little Corner</summary>
+<br>
+
+This is the website I keep rebuilding whenever I change my mind about how I want my work to look.
+
+It started as a portfolio. It turned into a project archive, then a dev log, then the Scratchpad where I dump writeups, half-formed ideas, technical rabbit holes and whatever I was obsessing over that week.
+
+The project pages have their own writeups and live metrics. The Scratchpad is where I write the longer versions of things after I have actually spent enough time building them to know what happened.
+
+A lot of the Spoin documentation ended up there because writing "Gemini pissed me off, so I rebuilt the architecture" is a much better explanation of the project than pretending it arrived fully designed.
+
+**Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Supabase · Vercel
 
 </details>
 
 ---
-
-### Past Projects
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/trotter">Trotter</a></strong>: Deterministic Financial Valuation & Sentiment Engine</summary>
-<br>
-
-A trading research assistant scoring equities across weekly, monthly, and long-term horizons with live sentiment, technical momentum, and valuation grounding.
-
-- **Deterministic scoring wall:** Momentum, volatility, volume profiles, and FinBERT sentiment are pure mathematical code over historical market data. Two identical queries return byte-identical scores; Gemini is only handed computed numbers for narrative synthesis.
-- **Resilient aggregation with graceful degradation:** RSS feeds from Yahoo Finance and Google News are normalized against publisher title drift. If an external API key is missing, downstream steps gracefully skip while keeping core quantitative scorecards 100% operational.
-- **Stack:** Next.js App Router, Server-Sent Events (SSE) progress streaming, FinBERT batched inference, 10-min symbol caching, Gemini Vision for candlestick chart analysis.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/fraud-vote-detection">Fraud Vote Detection</a></strong>: Computer Vision Audit Pipeline for Scanned Electoral Rolls</summary>
-<br>
-
-Automated audit pipeline converting scanned, printed voter grid images into structured, verifiable database records to detect fraudulent duplications.
-
-- **OpenCV grid segmentation:** Segment and extract individual voter cells from noisy scanned document images.
-- **GCP Vision OCR & Face Embedding Matching:** Reads text metadata with 98%+ crop accuracy and compares deep facial embeddings across the entire voter roll to catch individuals registered under multiple identities.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/synthetic-dataset-generator">Synthetic Dataset Generator</a></strong>: DCGAN for Privacy-Preserving Medical Imaging</summary>
-<br>
-
-Trained a Deep Convolutional GAN on the NIH chest X-ray dataset to synthesize high-fidelity 256×256 medical scans for data augmentation without patient privacy violations.
-
-- **Mode-collapse prevention:** Implemented one-sided label smoothing, discriminator input noise injection, and asymmetric generator learning rates.
-- **Performance:** Trained 125 epochs on RTX 3090, achieving an FID score of ~150 and generating 10,000+ validated synthetic scans.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/amazon-ml-challenge">Amazon ML Challenge</a></strong>: Multimodal Product Pricing Predictor</summary>
-<br>
-
-Built for Amazon's ML Challenge to predict price across 75,000 products from raw images, text metadata, and noisy titles.
-
-- **Cold-brand calibration:** Handled a 60% unseen-brand test set distribution shift by dropping unreliable high-variance features and applying quantile mapping blended with raw model predictions.
-- **Ensemble architecture:** 40 multimodal features fed into an Optuna-tuned ensemble of XGBoost, LightGBM, and neural networks, achieving 22.5% validation SMAPE.
-
-</details>
-
-<details>
-<summary><strong><a href="https://github.com/anubhav-qt/secondary-screen">Secondary Screen</a></strong>: Zero-Dependency Dashboard for Secondary Displays</summary>
-<br>
-
-A lightweight, zero-dependency auxiliary monitor dashboard replacing bloated 300MB Electron apps with clean web standards and an idempotent Windows launcher.
-
-- **Architecture:** 3 static vanilla web files, a 40-line Python server, and an idempotent launcher that ensures single-instance execution on boot/wake without registry modifications.
-
-</details>
-<hr>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhav-qt)
