@@ -4,7 +4,7 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Backend Engineer · 2026 CS Graduate                                   │
+│  Software Engineer · 2026 CS Graduate                                  │
 │  Generative AI Engineer Trainee @Precision Design & Engineering        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
@@ -73,7 +73,7 @@
 ### Building
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: For the Curious</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/spoin_bundle">Spoin</a></strong>: Curiosity driven scrolling feed</summary>
 <br>
 
 Spoin started as a simple idea: make a learning app that feels like scrolling a social feed. Pick some topics, get one thing to learn, then another, with quizzes and progression so it does not turn into an endless pile of random facts.
@@ -86,12 +86,12 @@ The other half of Spoin is the learning system around the cards. Curricula descr
 
 The models are workers now. They are not Spoin.
 
-**Stack:** FastAPI · PostgreSQL · pgvector · FROG · LangGraph · Gemini · Next.js · React
+**Stack:** FastAPI · PostgreSQL · pgvector · RAG · LangGraph · Next.js · React
 
 </details>
 
 <details>
-<summary><strong><a href="https://github.com/anubhav-qt/breader">Breader</a></strong>: A Minimal Reader for the Web</summary>
+<summary><strong><a href="https://github.com/anubhav-qt/breader">Breader</a></strong>: An Immersive Reader for the Web</summary>
 <br>
 
 I wanted a place where I could open a book and just read without the site trying to turn reading into a productivity dashboard.
@@ -100,9 +100,9 @@ So Breader is deliberately quiet. Books start as outlines in the library and fil
 
 Then I kept adding the things I actually wanted while reading. Browser-side voices. Sentence highlighting. Pronunciation overrides. Immersive mode. Custom Piper and Kokoro voices.
 
-EPUB, PDF, TXT, Markdown and pasted text all work. There is no account requirement, no ads and no subscription.
+EPUB, PDF, TXT, Markdown and pasted text all work. There is no account requirement, still you can save your progress using your personal "key" generated once which you can also use to share your library with others.
 
-**Stack:** React · TypeScript · Vite · browser storage · local TTS
+**Stack:** React · TypeScript · Hono
 
 </details>
 
@@ -136,7 +136,7 @@ The project pages have their own writeups and live metrics. The Scratchpad is wh
 
 A lot of the Spoin documentation ended up there because writing "Gemini pissed me off, so I rebuilt the architecture" is a much better explanation of the project than pretending it arrived fully designed.
 
-**Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Supabase · Vercel
+**Stack:** React 19 · TypeScript · Tailwind CSS
 
 </details>
 
