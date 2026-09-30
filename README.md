@@ -55,6 +55,9 @@
       <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker Compose" />
       <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
       <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+      <img src="https://img.shields.io/badge/Caddy-1F88C5?style=flat-square&logo=caddy&logoColor=white" alt="Caddy" />
+      <img src="https://img.shields.io/badge/cloudflared-F48120?style=flat-square&logo=cloudflare&logoColor=white" alt="cloudflared" />
+      <img src="https://img.shields.io/badge/age-111111?style=flat-square" alt="age" />
     </td>
   </tr>
   <tr>
@@ -102,7 +105,7 @@ Then I kept adding the things I actually wanted while reading. Browser-side voic
 
 EPUB, PDF, TXT, Markdown and pasted text all work. There is no account requirement, still you can save your progress using your personal "key" generated once which you can also use to share your library with others.
 
-**Stack:** React · TypeScript · Hono
+**Stack:** React · TypeScript · Hono · Docker · Docker Compose · cloudflared · age
 
 </details>
 
@@ -120,7 +123,7 @@ The data model is vendor-aware from the start because I do not want multi-vendor
 
 It has been running in production since July 2026. I have kept working on the same system after deployment, adding features, fixing things as they appear and changing parts of the architecture when the existing shape stops making sense.
 
-**Stack:** Next.js · React · NestJS · PostgreSQL · TypeORM · Docker · Razorpay · Cloudinary · Socket.IO
+**Stack:** Next.js · React · NestJS · PostgreSQL · TypeORM · Docker · Docker Compose · Caddy · cloudflared · age · Razorpay · Cloudinary · Socket.IO
 
 </details>
 
