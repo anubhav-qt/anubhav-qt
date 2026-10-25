@@ -5,7 +5,8 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  Software Engineer · 2026 CS Graduate                                  │
-│  Generative AI Engineer Trainee @Precision Design & Engineering        │
+│  Generative AI Engineer Trainee @Precision Design & Engineering        |
+|  ML Engineer @Anthology, Polymath                                      │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 <div>
