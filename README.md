@@ -1,5 +1,3 @@
-# Anubhav Joshi
-
 ### Building
 
 #### [Breader](https://github.com/anubhav-qt/breader)
