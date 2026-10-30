@@ -4,6 +4,18 @@
 │  ML Engineer @Anthology, Polymath                                  │
 └────────────────────────────────────────────────────────────────────┘
 ```
+### Tech Stack
+
+<table>
+<tr><td><strong>Languages</strong></td><td>Python · TypeScript · Rust · C++ · Mojo</td></tr>
+<tr><td><strong>Backend</strong></td><td>Hono · FastAPI · NestJS</td></tr>
+<tr><td><strong>AI & ML</strong></td><td>LangGraph · PyTorch · OpenCV · CUDA · Harness Engineering</td></tr>
+<tr><td><strong>Data</strong></td><td>PostgreSQL · Redis · SQLAlchemy · TypeORM · Drizzle</td></tr>
+<tr><td><strong>Infrastructure</strong></td><td>Docker · Kubernetes · Linux</td></tr>
+<tr><td><strong>Frontend</strong></td><td>React · Svelte · Tauri</td></tr>
+</table>
+
+---
 
 ### My Projects (Building / Maintaining)
 
@@ -50,19 +62,6 @@ I started Spoin around the idea of scrolling through knowledge the same way you 
 It grew into a curated knowledge corpus, a custom RAG implementation called FROG, and separate generation and verification layers. Cards are generated ahead of time, so the feed never waits for an LLM call.
 
 Paused for now. My time is going to PDE (my full-time work), Anthology (my freelancing role), creating new projects like Jello and Dodo, and maintaining and upgrading Breader and PariBelle.
-
----
-
-### Tech Stack
-
-<table>
-<tr><td><strong>Languages</strong></td><td>Python · TypeScript · Rust · C++ · Mojo</td></tr>
-<tr><td><strong>Backend</strong></td><td>Hono · FastAPI · NestJS</td></tr>
-<tr><td><strong>AI & ML</strong></td><td>LangGraph · PyTorch · OpenCV · CUDA · Harness Engineering</td></tr>
-<tr><td><strong>Data</strong></td><td>PostgreSQL · Redis · SQLAlchemy · TypeORM · Drizzle</td></tr>
-<tr><td><strong>Infrastructure</strong></td><td>Docker · Kubernetes · Linux</td></tr>
-<tr><td><strong>Frontend</strong></td><td>React · Svelte · Tauri</td></tr>
-</table>
 
 ---
 
