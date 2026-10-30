@@ -17,13 +17,15 @@
 
 ---
 
-### My Projects (Building / Maintaining)
+### Featured Projects
 
 #### [Breader](https://github.com/anubhav-qt/breader)
 
 An immersive e-reader for books and manga. I was building it for myself and kept adding things to it until it became a proper app.
 
 It reads aloud with voices that run in your browser. It even has a panel by panel reading mode for manga. Every book fills up with its own colour as you read it to show your progress. No payments and no sign-up.
+
+Already serving over 500 users, with about 50 daily active users.
 
 [breader.site](https://breader.site) · [Repo](https://github.com/anubhav-qt/breader)
 
@@ -45,11 +47,11 @@ Pre-alpha, but the networking core works: HTTP/1.1, HTTP/2, TLS and WebSockets. 
 
 ---
 
-#### [PariBelle](https://www.paribelle.in)
+#### [PariBelle Ecosystem](https://www.paribelle.in)
 
 PariBelle is my family's fashion business. The storefront has been taking real orders since July 2026. POM handles the orders and operations, and my family and I use it every day. Then I added Seelie, an AI agent for the shop. It helps with shop operations, product photos, reels and Meta ads, everything from one interface and just using natural language.
 
-Since September all of it runs on my ThinkPad, with Vercel, Render and Supabase as the fallback.
+Since September all of it runs on my ThinkPad, with Vercel, Render and Supabase as the fallback. It has got over 30 orders from the storefront by now, and POM has replaced my dad's INR 40,000 SaaS annual subscription for managing everything from Amazon, Flipkart, Meesho and Jiomart.
 
 [paribelle.in](https://www.paribelle.in) · [POM](https://github.com/anubhav-qt/pom) · [Storefront](https://github.com/anubhav-qt/paribelle-web) · [Backend](https://github.com/anubhav-qt/paribelle-backend)
 
