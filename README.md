@@ -9,7 +9,7 @@
 <table>
 <tr><td><strong>Languages</strong></td><td>Python · TypeScript · Rust · C++ · Mojo</td></tr>
 <tr><td><strong>Backend</strong></td><td>Hono · FastAPI · NestJS</td></tr>
-<tr><td><strong>AI & ML</strong></td><td>LangGraph · PyTorch · OpenCV · CUDA · Harness Engineering</td></tr>
+<tr><td><strong>AI & ML</strong></td><td>LangGraph · PyTorch · OpenCV · CUDA</td></tr>
 <tr><td><strong>Data</strong></td><td>PostgreSQL · Redis · SQLAlchemy · TypeORM · Drizzle</td></tr>
 <tr><td><strong>Infrastructure</strong></td><td>Docker · Kubernetes · Linux</td></tr>
 <tr><td><strong>Frontend</strong></td><td>React · Svelte · Tauri</td></tr>
