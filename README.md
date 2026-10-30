@@ -1,4 +1,11 @@
-### Building
+```text
+┌────────────────────────────────────────────────────────────────────┐
+│  Generative AI Engineer Trainee @Precision Design & Engineering    │
+│  ML Engineer @Anthology, Polymath                                  │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+### My Projects (Building / Maintaining)
 
 #### [Breader](https://github.com/anubhav-qt/breader)
 
@@ -8,17 +15,23 @@ It reads aloud with voices that run in your browser. It even has a panel by pane
 
 [breader.site](https://breader.site) · [Repo](https://github.com/anubhav-qt/breader)
 
+---
+
 #### [Jello](https://github.com/anubhav-qt/jello)
 
 I was a drummer in school, played fingerstyle guitar for a few years and was very good at it, and picked up intermediate music theory along the way. So now I'm making my PC my instrument with Jello, and hopefully I'll make music of my own someday!
 
 It's a desktop synth and an entire music studio you play on your PC's keyboard. Rust core, a C++ audio engine, and a TypeScript UI in Tauri. Still very early.
 
+---
+
 #### [Dodo](https://github.com/dodo-mojo/dodo)
 
 A web framework for Mojo where your HTTP server, AI models, GPU kernels, computer vision and agents run in one runtime, in one language.
 
 Pre-alpha, but the networking core works: HTTP/1.1, HTTP/2, TLS and WebSockets. The app API and CLI are next. Started on 26th October 2026, so it's very new.
+
+---
 
 #### [PariBelle](https://www.paribelle.in)
 
@@ -28,7 +41,7 @@ Since September all of it runs on my ThinkPad, with Vercel, Render and Supabase 
 
 [paribelle.in](https://www.paribelle.in) · [POM](https://github.com/anubhav-qt/pom) · [Storefront](https://github.com/anubhav-qt/paribelle-web) · [Backend](https://github.com/anubhav-qt/paribelle-backend)
 
-### Paused
+---
 
 #### [Spoin](https://github.com/anubhav-qt/spoin_bundle)
 
@@ -40,16 +53,6 @@ Paused for now. My time is going to PDE (my full-time work), Anthology (my freel
 
 ---
 
-### Work
-
-```text
-┌────────────────────────────────────────────────────────────────────┐
-│  Generative AI Engineer Trainee @Precision Design & Engineering    │
-│  ML Engineer @Anthology, Polymath                                  │
-│  Co-Founder & CTO @Anchorate                                       │
-└────────────────────────────────────────────────────────────────────┘
-```
-
 ### Tech Stack
 
 <table>
@@ -58,7 +61,7 @@ Paused for now. My time is going to PDE (my full-time work), Anthology (my freel
 <tr><td><strong>AI & ML</strong></td><td>LangGraph · PyTorch · OpenCV · CUDA · Harness Engineering</td></tr>
 <tr><td><strong>Data</strong></td><td>PostgreSQL · Redis · SQLAlchemy · TypeORM · Drizzle</td></tr>
 <tr><td><strong>Infrastructure</strong></td><td>Docker · Kubernetes · Linux</td></tr>
-<tr><td><strong>Frontend</strong></td><td>React · Next.js · React Native · Tauri</td></tr>
+<tr><td><strong>Frontend</strong></td><td>React · Svelte · Tauri</td></tr>
 </table>
 
 ---
