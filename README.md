@@ -25,7 +25,7 @@ An immersive e-reader for books and manga. I was building it for myself and kept
 
 It reads aloud with voices that run in your browser. It even has a panel by panel reading mode for manga. Every book fills up with its own colour as you read it to show your progress. No payments and no sign-up.
 
-Already serving over 500 users, with about 50 daily active users.
+Already serving over 6.6k users.
 
 [breader.site](https://breader.site) · [Repo](https://github.com/anubhav-qt/breader)
 
