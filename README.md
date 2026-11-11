@@ -21,11 +21,11 @@
 
 #### [Breader](https://github.com/anubhav-qt/breader)
 
-An immersive e-reader for books and manga. I was building it for myself and kept adding things to it until it became a proper app.
+An immersive e-reader for books and manga. Free, no ads, no sign-up.
 
-It reads aloud with voices that run in your browser. It even has a panel by panel reading mode for manga. Every book fills up with its own colour as you read it to show your progress. No payments and no sign-up.
+It reads aloud with voices that run on your own device, and turns any book into an MP3 audiobook. Manga has its own shelf: search MangaDex and other sources in one place, keep chapters offline, and read panel by panel with a panel model I trained. Libraries open with a key instead of an account, and you can share them. Every book fills up with its own colour as you read.
 
-Already serving over 6.6k users.
+Runs on my ThinkPad behind a Cloudflare Tunnel, with Render and Supabase as the fallback, for $0 a month. Already serving over 6.6k users, and open to contributors.
 
 [breader.site](https://breader.site) · [Repo](https://github.com/anubhav-qt/breader)
 
@@ -33,9 +33,11 @@ Already serving over 6.6k users.
 
 #### [Jello](https://github.com/anubhav-qt/jello)
 
-I was a drummer in school, played fingerstyle guitar for a few years and was very good at it, and picked up intermediate music theory along the way. So now I'm making my PC my instrument with Jello, and hopefully I'll make music of my own someday!
+A desktop synth and an entire music studio you play on your computer keyboard. No MIDI needed.
 
-It's a desktop synth and an entire music studio you play on your PC's keyboard. Rust core, a C++ audio engine, and a TypeScript UI in Tauri. Still very early.
+Chords on the left hand, melody on the right, with keys mapped to each song's scale. A synth you can shape down to every value, a sampled grand piano and drums, and a plucked string guitar you strum on the keys. Loops become tracks, tracks become sections, and sections become a whole song, mixed with nine effects and rendered to WAV. Jello AI sits in a side rail to help you practise, jam and arrange.
+
+Rust core, a C++ audio engine, and a Svelte UI in Tauri. v1.0 is out. Listen to [jellybean](https://github.com/anubhav-qt/jello/blob/main/docs/media/jellybean.mp4), made fully in Jello. Open to contributors.
 
 ---
 
@@ -43,7 +45,9 @@ It's a desktop synth and an entire music studio you play on your PC's keyboard. 
 
 A web framework for Mojo where your HTTP server, AI models, GPU kernels, computer vision and agents run in one runtime, in one language.
 
-Pre-alpha, but the networking core works: HTTP/1.1, HTTP/2, TLS and WebSockets. The app API and CLI are next. Started on 26th October 2026, so it's very new.
+The networking core is built and tested: HTTP/1.1, HTTP/2, TLS and WebSockets, thread-per-core, with fuzzed parsers and live h2spec and Autobahn checks. On top of it sit an App API with typed handlers and shared state, native database drivers with SQL migrations, and a `dodo` command line that makes new projects and runs its own MCP server. AI, GPU and computer vision in the handler come next.
+
+Pre-alpha, and open to contributors.
 
 ---
 
